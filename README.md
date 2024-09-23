@@ -28,6 +28,18 @@ The main requirements of the project were as follows:
 4. Offer subscription management functionalities.
 5. Provide audience analytics for producers.
 
+**RSS** (Really Simple Syndication) is a web content distribution format. It allows users to subscribe to updates from websites, blogs, news, and podcasts automatically, without needing to visit the site manually.
+
+In the case of **podcasts**, an **RSS feed** is essential for distributing episodes to podcast platforms (like Spotify, Apple Podcasts, Google Podcasts, etc.). An RSS feed contains information about the episodes, such as the title, description, download link, publication date, and other metadata.
+
+Here’s how it works:
+1. **Podcast Producer**: Creates new episodes and publishes them on their server, along with an updated RSS feed.
+2. **RSS Feed**: The feed, which is an XML file, lists all the episodes and their details.
+3. **Podcast Aggregators**: Applications or platforms periodically check this RSS feed. When a new episode is detected, it is automatically added to the platform and made available to listeners.
+4. **Listeners**: Users can subscribe to the podcast via the RSS feed. When new episodes are released, they are automatically notified or can download the content.
+
+RSS makes it easy to distribute and consume content in an automated and efficient way.
+
 **Approach Taken:**
 To meet the project requirements, we adopted the following technical approaches:
 
